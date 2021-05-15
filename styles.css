@@ -6,9 +6,9 @@
 
 body {
   --background-color: white;
-  --count-color: hsl(230, 17%, 14%);
+  --primary-text-color: hsl(230, 17%, 14%);
   --card-background-color: hsl(227, 47%, 96%);
-  --text-color: hsl(228, 12%, 44%);
+  --secondary-text-color: hsl(228, 12%, 44%);
 
   background-color: var(--background-color);
   font-family: "Inter", sans-serif;
@@ -21,9 +21,9 @@ body {
 }
 body.dark {
   --background-color: hsl(230, 17%, 14%);
-  --count-color: white;
+  --primary-text-color: white;
   --card-background-color: hsl(228, 28%, 20%);
-  --text-color: hsl(228, 34%, 66%);
+  --secondary-text-color: hsl(228, 34%, 66%);
 }
 
 .dash__wrapper {
@@ -31,16 +31,16 @@ body.dark {
   margin-top: 30px;
 }
 .heading__text h1 {
-  color: var(--count-color);
+  color: var(--primary-text-color);
   font-size: 26px;
 }
 .heading__text .total__followers {
   margin-top: 5px;
-  color: var(--text-color);
+  color: var(--secondary-text-color);
 }
 
 .horizontal__line {
-  background-color: var(--text-color);
+  background-color: var(--secondary-text-color);
   width: 100%;
   height: 1px;
   margin: 20px 0;
@@ -52,7 +52,7 @@ body.dark {
   margin-bottom: 20px;
 }
 .theme__text {
-  color: var(--text-color);
+  color: var(--secondary-text-color);
   font-weight: 700;
   margin-right: 10px;
 }
@@ -123,7 +123,7 @@ body.dark {
   margin-right: 10px;
 }
 .handle {
-  color: var(--text-color);
+  color: var(--secondary-text-color);
   font-weight: 700;
   font-size: 12px;
 }
@@ -134,11 +134,11 @@ body.dark {
   align-items: center;
 }
 .follower__count .count {
-  color: var(--count-color);
+  color: var(--primary-text-color);
   font-size: 3.5rem;
 }
 .follower__count .followers {
-  color: var(--text-color);
+  color: var(--secondary-text-color);
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
@@ -170,7 +170,7 @@ body.dark {
   margin-bottom: 30px;
 }
 .overview__head h2 {
-  color: var(--count-color);
+  color: var(--primary-text-color);
 }
 .overview__container {
   display: flex;
@@ -191,14 +191,14 @@ body.dark {
   justify-content: space-between;
 }
 .overview .top h5 {
-  color: var(--text-color);
+  color: var(--secondary-text-color);
 }
 .overview .bottom {
   display: flex;
   justify-content: space-between;
 }
 .overview .bottom .overview__count {
-  color: var(--count-color);
+  color: var(--primary-text-color);
   font-weight: 700;
   font-size: 2rem;
 }
