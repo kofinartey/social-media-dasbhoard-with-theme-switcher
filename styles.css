@@ -58,6 +58,7 @@ body.dark {
 }
 .theme__button {
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 .btn__background {
   background-color: hsl(230, 22%, 74%);
